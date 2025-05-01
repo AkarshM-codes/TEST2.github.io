@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: larger;
+    font-family: 'Arial Narrow Bold';
+    text-decoration: none;
+}
+a:link {
+    color: aliceblue;
+    padding-left: 50px;
+    text-decoration: none;
+}
+a:visited {
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    left: 0;
+    bottom: 0;
+}
+.items {
+    display: flex;
+    height: 150px;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.bgimage {
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-image: url('assets/ChatGPT\ Image\ May\ 1\,\ 2025\,\ 06_16_56\ PM.png'); 
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.main {
+    z-index: 1;
+    color: aquamarine;
+    margin-top: 70px; 
+   
+    
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}   
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid transparent;
+    padding: 20px;
+
+    
+    
+}
+.video1 {
+    
+    transition: 1sec ease-in;
+    border: solid transparent;
+    margin: 30px;
+}
+.video2 {
+    transition: 1sec ease-in;
+    border: solid transparent;
+}
+.video1:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px rgb(21, 188, 124);
+}
+.video2:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px rgb(21, 188, 124);
+}
+.container {
+    
+    z-index: 1;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+   padding: 10px;
+    
+   
+  }
+  .item {
+    width: 400px;
+    height: 150px;
+    color: brown;
+    background-color: rgb(110, 110, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 3sec ease-in;
+  }
+  .item:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px red;
+  }

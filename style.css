@@ -1,0 +1,33 @@
+body{
+    background-image: url("assets/download.jpg");
+    color: brown;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 150px;
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    background-color: rgb(189, 143, 36);
+}
+a:link {
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+a:visited {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
