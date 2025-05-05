@@ -6,7 +6,7 @@
 .nav{
     background-color: black;
     height: 70px;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     display: flex;
     position: fixed;
@@ -28,8 +28,8 @@ a:visited {
 }
 .container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     
@@ -48,8 +48,8 @@ a:visited {
 }
 .bgimage {
     z-index: -1;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: fixed;
     background-image: url('assets/ChatGPT\ Image\ May\ 1\,\ 2025\,\ 06_16_56\ PM.png'); 
     background-size: cover;
