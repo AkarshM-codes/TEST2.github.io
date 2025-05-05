@@ -5,4 +5,4 @@
         e.preventDefault();
       }
     });
-  
+  alert("This website is compatible only with PC coz they are cheats for pc retard");
